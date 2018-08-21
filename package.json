@@ -1,13 +1,18 @@
 {
-  "name" : "bot",
-  "description" : "newbot",
-  "version" : "1.0.0",
-  "main" : "index.js",
-  "scripts" : {
-    "start" : "node index.js"
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies" : {
-    "discord.js" : "11.4.2",
-    "request" : "2.81.0"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg": "0.0.4",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.24.0"
   }
 }
